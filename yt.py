@@ -13,7 +13,7 @@ try:
     yd = yt.streams.get_highest_resolution()
     
     # Download the video to the current directory
-    yd.download('/Users/Geetika/Downloads')
+    yd.download()
     
     print("Download complete.")
 except Exception as e:
